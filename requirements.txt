@@ -1,0 +1,4 @@
+# --- Core runtime ---
+Pillow>=10.3.0          # image loading, thumbnails, resizing
+pymupdf>=1.24.10        # PDF extraction (vectors + images)  [import name: fitz]
+lxml>=5.2.1             # write pretty Pascal VOC XML
