@@ -20,7 +20,8 @@ A small toolkit for building symbol boards: extract symbols from source document
 | extract_symbols.py | Script that rips images from Finalized_Indian_army_Symbology_5.pdf into extracted_symbols/. |
 | dataset/extraction_report.json | Metadata produced during symbol extraction. |
 | extracted_symbols/ | Default working palette the apps load. Populate with PNG/JPEG/WEBP/BMP files. |
-| equirements.txt | Minimal dependencies for the apps and extraction helper. |
+| 
+equirements.txt | Minimal dependencies for the apps and extraction helper. |
 
 ## Getting Started
 1. Create a virtual environment (recommended):
@@ -46,7 +47,7 @@ python symbol_builder_appV11.py     # V11 single-select workflow
 python symbol_builder_v12.py        # latest release with text tool
 `
 Set SYMBOLS_DIR if your assets live elsewhere:
-`ash
+bash
 set SYMBOLS_DIR=D:\path\to\your\symbols
 python symbol_builder_v12.py
 `
@@ -81,3 +82,5 @@ python symbol_builder_v12.py
 - Support grouping and multi-select for faster layout tweaks.
 - Add snapping guides or grid overlays to align symbology precisely.
 - Wire up saving/loading board layouts as JSON to resume work later.
+- 
+
