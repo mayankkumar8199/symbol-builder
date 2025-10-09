@@ -25,16 +25,16 @@ equirements.txt | Minimal dependencies for the apps and extraction helper. |
 
 ## Getting Started
 1. Create a virtual environment (recommended):
-   `ash
+   `bash
    python -m venv .venv
    .venv\Scripts\activate
    `
 2. Install dependencies:
-   `ash
+   `bash
    pip install -r requirements.txt
    `
 3. Prepare your symbol library. Drop image files into extracted_symbols/. To extract from the bundled PDF run:
-   `ash
+   `bash
    python extract_symbols.py
    `
 
@@ -83,4 +83,5 @@ python symbol_builder_v12.py
 - Add snapping guides or grid overlays to align symbology precisely.
 - Wire up saving/loading board layouts as JSON to resume work later.
 - 
+
 
